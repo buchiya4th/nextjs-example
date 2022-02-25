@@ -1,6 +1,7 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
   "editor.defaultFormatter": "standard.vscode-standard",
   "eslint.format.enable": false,
@@ -12,5 +13,8 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "npm.packageManager": "yarn",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "stylelint.validate": ["css", "scss"],
+  "scss.validate": false,
+  "css.validate": false,
 }
