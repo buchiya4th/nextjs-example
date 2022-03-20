@@ -1,0 +1,20 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.defaultFormatter": "standard.vscode-standard",
+  "eslint.format.enable": false,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "on",
+  "editor.rulers": [80],
+  "editor.wordWrap": "on",
+  "eslint.packageManager": "yarn",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "npm.packageManager": "yarn",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "stylelint.validate": ["css", "scss"],
+  "scss.validate": false,
+  "css.validate": false,
+}
